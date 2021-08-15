@@ -1,0 +1,31 @@
+/* .parent{
+    position:relative;
+    height:300px;
+    width:300px;
+    background-color: brown;
+}
+.child{
+    display:inline-block;
+    position:absolute;
+    height:100px;
+    width:100px;
+    background-color: cadetblue;
+    right:0%;
+    } */
+    /* .body{
+    background-color:rgb(198, 240, 226);
+    } */
+    /*  these are min width of these devices
+    small devices->0-767px 
+    tablet->768px
+    lappy ->1020px
+    pc->1400px
+     */
+/* to execute @media we need to write meta tags in html file */
+@media (min-width: 200px){
+         body{
+            background-color:rgb(221, 243, 236);
+         }
+     }
+ 
+     
